@@ -16,7 +16,7 @@ const debounce = (message) => {
 
 debounce("Hello"); // cancelled
 debounce("World"); // cancelled
-debounce("Hey");
+debounce("Hey"); // exec
 
 // LeetCode  - https://leetcode.com/problems/debounce/
 // const debounce = (fn, t) => {
