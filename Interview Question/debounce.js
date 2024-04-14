@@ -17,3 +17,12 @@ const debounce = (message) => {
 debounce("Hello"); // cancelled
 debounce("World"); // cancelled
 debounce("Hey");
+
+// LeetCode  - https://leetcode.com/problems/debounce/
+// const debounce = (fn, t) => {
+//   let timer;
+//   return function (...args) {
+//     clearTimeout(timer);
+//     timer = setTimeout(() => fn(...args), t);
+//   };
+// };
