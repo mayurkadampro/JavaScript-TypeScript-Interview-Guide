@@ -17,6 +17,7 @@ function calculateVolumeCurry(length) {
 calculateVolumeCurry(4)(5)(6); // 120
 
 // LeetCode https://leetcode.com/problems/curry/description/
+// Video Soln - https://www.youtube.com/watch?v=YnvIObEO3nU
 function curry(fn) {
   let result = [];
   return function curried(...args) {
