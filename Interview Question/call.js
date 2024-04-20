@@ -37,3 +37,29 @@ console.log(result3); // John Doe
 
 const result4 = person.fullName.call(person2);
 console.log(result4); // Mary Doe
+
+// ======================================================================================================= //
+
+function setUsername(username) {
+  this.username = username;
+}
+
+function createUser(username, email, password) {
+  setUsername(username);
+
+  this.email = email;
+  this.password = password;
+}
+
+const result5 = new createUser("Mayur144", "Mayur144@gmail.com", "Mayur144");
+console.log(result5); // createUser { email: 'Mayur144@gmail.com', password: 'Mayur144' }
+
+function createNewUser(username, email, password) {
+  setUsername.call(this, username);
+
+  this.email = email;
+  this.password = password;
+}
+
+const result6 = new createNewUser("Mayur144", "Mayur144@gmail.com", "Mayur144");
+console.log(result6); // createUser { username: 'Mayur144', email: 'Mayur144@gmail.com', password: 'Mayur144' }
