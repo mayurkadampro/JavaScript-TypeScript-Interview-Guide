@@ -63,3 +63,6 @@ function createNewUser(username, email, password) {
 
 const result6 = new createNewUser("Mayur144", "Mayur144@gmail.com", "Mayur144");
 console.log(result6); // createUser { username: 'Mayur144', email: 'Mayur144@gmail.com', password: 'Mayur144' }
+
+
+// https://www.youtube.com/watch?v=-owpuf4lbyU
