@@ -1,28 +1,35 @@
-function NumberToBinary(num) {
-  let decimalNumber = "";
-  while (num != 0) {
-    let reminder = Math.floor(num / 2);
-    let quotient = Math.floor(num % 2);
-    decimalNumber += quotient;
-    num = reminder;
+function NumberToBinary(n) {
+  // Handle special case when input is 0
+  if (n === 0) return "0";
+
+  // Initialize result string
+  let binaryCode = "";
+
+  // Continue until quotient is 1
+  while (n !== 1) {
+    // Append remainder to result
+    binaryCode = Math.abs(n % -2).toString() + binaryCode;
+
+    // Update quotient for the next iteration
+    n = Math.ceil(n / -2);
   }
 
-  return decimalNumber.split("").reverse().join("");
+  // Append the final '1' to the result
+  binaryCode = "1" + binaryCode;
+
+  return binaryCode;
 }
 
-function NumberTBinaryRecursion(num) {
-  // base case
-  if (num <= 0) {
-    return;
-  }
+function baseNeg2(n) {
+    // base case for special inputs
+    if (n === 0) return "0";
+    if (n === 1) return "1";
 
-  let ans = NumberTBinaryRecursion(Math.floor(num / 2));
-  let reminder = Math.floor(num % 2);
+    let ans = baseNeg2(Math.ceil(n / -2));
+    let reminder = Math.abs(n % -2).toString();
 
-  if (ans) {
     reminder = ans + "" + reminder;
-  }
-  return reminder;
+    return reminder;
 }
 
-console.log(NumberTBinaryRecursion(4));
+console.log(baseNeg2(3));
