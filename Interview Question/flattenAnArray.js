@@ -11,7 +11,7 @@ const deepFlat = arr.flat(Infinity);
 console.log(deepFlat); // [ 1, 2, 3, 4, 5 ]
 
 // ================================================================================================ //
-// Wihtout using any build method we can solve by recursion
+// Without using any build method we can solve by recursion
 const deeplyFlat = (inputArray, tempArray = []) => {
   // base case
   if (!Array.isArray(inputArray)) {
