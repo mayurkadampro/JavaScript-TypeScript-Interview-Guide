@@ -11,7 +11,6 @@ const csvToJson = (csvData) => {
     const header = splitArray[0].split(",");
     const data = splitArray.slice(1);
     const result = [];
-    const idObjRef = [];
     
     for(const value of data) {
         const valueArr = value.split(",");
@@ -24,7 +23,6 @@ const csvToJson = (csvData) => {
         
         if(!valueArr[1]){
             result.push(obj);
-            //idObjRef.push(result[result.length - 1]);
         }else{
             const parent = result.filter((item) => item.id === valueArr[1]);
             if(parent) parent[0].children.push(obj)
