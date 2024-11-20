@@ -66,17 +66,58 @@ class MyPromise {
       this.finallyCb = cb;
     }
   }
+
+  static all(promises) {
+    return new MyPromise((resolve, reject) => {
+      if (!Array.isArray(promises)) {
+        return new TypeError("Promises type should be array");
+      }
+
+      let result = [];
+      let completedResponse = 0;
+
+      if (promises.length === 0) {
+        resolve(result);
+      }
+
+      promises.forEach((promise, index) => {
+        promise
+          .then((res) => {
+            result.push(res);
+            completedResponse++;
+            if (completedResponse === promises.length) {
+              resolve(result);
+            }
+          })
+          .catch((err) => {
+            reject(err);
+          });
+      });
+    });
+  }
 }
 
 const myPromise = new MyPromise((resolve, reject) => {
-  setTimeout(() => reject("Hello, World!"), 1000);
+  setTimeout(() => resolve("Hello, World!"), 1000);
 });
 
-myPromise
-  .then((data) => {
-    console.log("On Then First : ", data);
-    return "Hey";
+// myPromise
+// .then((data) => {
+//     console.log("On Then First : ", data);
+//     return "Hey";
+// })
+// // .then((secdata) => console.log("On Then Second : ",secdata))
+// .catch((data) => console.log("On Catch : ", data))
+// .finally(() => console.log("finally..."));
+
+const promise1 = Promise.resolve(10);
+const promise2 = Promise.resolve(20);
+const promise3 = Promise.resolve(30);
+
+MyPromise.all([myPromise, promise1, promise2, promise3])
+  .then((results) => {
+    console.log(results); // [10, 20, 30]
   })
-  // .then((secdata) => console.log("On Then Second : ",secdata))
-  .catch((data) => console.log("On Catch : ", data))
-  .finally(() => console.log("finally..."));
+  .catch((err) => {
+    console.error(err);
+  });
