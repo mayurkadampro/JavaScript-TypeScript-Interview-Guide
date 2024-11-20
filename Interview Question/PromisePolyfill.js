@@ -67,6 +67,14 @@ class MyPromise {
     }
   }
 
+  static resolve(value) {
+    return new MyPromise((resolve) => resolve(value));
+  }
+
+  static reject(value) {
+    return new MyPromise((resolve, reject) => reject(value))
+  }
+
   static all(promises) {
     return new MyPromise((resolve, reject) => {
       if (!Array.isArray(promises)) {
@@ -81,17 +89,15 @@ class MyPromise {
       }
 
       promises.forEach((promise, index) => {
-        promise
-          .then((res) => {
-            result.push(res);
-            completedResponse++;
-            if (completedResponse === promises.length) {
-              resolve(result);
-            }
-          })
-          .catch((err) => {
-            reject(err);
-          });
+        promise.then((res) => {
+          result.push(res);
+          completedResponse++;
+          if (completedResponse === promises.length) {
+            resolve(result);
+          }
+        }).catch((err) => {
+          reject(err);
+        });
       });
     });
   }
@@ -110,9 +116,10 @@ const myPromise = new MyPromise((resolve, reject) => {
 // .catch((data) => console.log("On Catch : ", data))
 // .finally(() => console.log("finally..."));
 
-const promise1 = Promise.resolve(10);
-const promise2 = Promise.resolve(20);
-const promise3 = Promise.resolve(30);
+const promise1 = MyPromise.resolve(10);
+const promise2 = MyPromise.resolve(20);
+const promise3 = MyPromise.resolve(30);
+// const promise3 = MyPromise.reject("Error while computing...");
 
 MyPromise.all([myPromise, promise1, promise2, promise3])
   .then((results) => {
@@ -121,3 +128,4 @@ MyPromise.all([myPromise, promise1, promise2, promise3])
   .catch((err) => {
     console.error(err);
   });
+
