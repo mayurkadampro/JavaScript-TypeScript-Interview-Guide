@@ -213,32 +213,28 @@ Understand system design principles and implement design patterns.
 
 ### TypeScript Design Patterns
 
-- **Behavioral Design Patterns**
-  - [Chain of Responsibility (Logging System)](05%20-%20Low-Level%20Design/TypeScript%20Design%20Patterns/Behavioral%20Design%20Patterns/Chain%20of%20Responsibility%20(Logging%20System).md)
-  - [Observer Pattern](05%20-%20Low-Level%20Design/TypeScript%20Design%20Patterns/Behavioral%20Design%20Patterns/Observer%20Pattern.md)
-  - [Strategy Pattern](05%20-%20Low-Level%20Design/TypeScript%20Design%20Patterns/Behavioral%20Design%20Design%20Patterns/Strategy%20Pattern.md)
-  - [State Pattern](05%20-%20Low-Level%20Design/TypeScript%20Design%20Patterns/Behavioral%20Design%20Patterns/State%20Pattern.md)
-  - [Command Pattern](05%20-%20Low-Level%20Design/TypeScript%20Design%20Patterns/Behavioral%20Design%20Patterns/Command%20Pattern.md)
-  - [Iterator Pattern](05%20-%20Low-Level%20Design/TypeScript%20Design%20Patterns/Behavioral%20Design%20Patterns/Iterator%20Pattern.md)
-  - [Mediator Pattern](05%20-%20Low-Level%20Design/TypeScript%20Design%20Patterns/Behavioral%20Design%20Patterns/Mediator%20Pattern.md)
-  - [Memento Pattern](05%20-%20Low-Level%20Design/TypeScript%20Design%20Patterns/Behavioral%20Design%20Patterns/Memento%20Pattern.md)
-  - [Template Method Pattern](05%20-%20Low-Level%20Design/TypeScript%20Design%20Patterns/Behavioral%20Design%20Patterns/Template%20Method%20Pattern.md)
-  - [Visitor Pattern](05%20-%20Low-Level%20Design/TypeScript%20Design%20Patterns/Behavioral%20Design%20Patterns/Visitor%20Pattern.md)
+<details>
+  <summary>Behavioral Design Patterns</summary>
 
-- **Creational Design Patterns**
-  - [Abstract Factory Pattern](05%20-%20Low-Level%20Design/TypeScript%20Design%20Patterns/Creational%20Design%20Patterns/Abstract%20Factory%20Pattern.md)
-  - [Builder Pattern](05%20-%20Low-Level%20Design/TypeScript%20Design%20Patterns/Creational%20Design%20Patterns/Builder%20Pattern.md)
-  - [Factory Method Pattern](05%20-%20Low-Level%20Design/TypeScript%20Design%20Patterns/Creational%20Design%20Patterns/Factory%20Method%20Pattern.md)
-  - [Prototype Pattern](05%20-%20Low-Level%20Design/TypeScript%20Design%20Patterns/Creational%20Design%20Patterns/Prototype%20Pattern.md)
-  - [Singleton Pattern](05%20-%20Low-Level%20Design/TypeScript%20Design%20Patterns/Creational%20Design%20Patterns/Singleton%20Pattern.md)
+  - [Chain of Responsibility (Logging System)](./05%20-%20Low%20Level%20Design/03%20-%20TypeScript%20Design%20Pattern/Behavioral%20Design%20Patterns/Chain%20of%20Responsibility/%20Logging%20System/README.md)
+</details>
 
-- **Structural Design Patterns**
-  - [Adapter Pattern](05%20-%20Low-Level%20Design/TypeScript%20Design%20Patterns/Structural%20Design%20Patterns/Adapter%20Pattern.md)
-  - [Bridge Pattern](05%20-%20Low-Level%20Design/TypeScript%20Design%20Patterns/Structural%20Design%20Patterns/Bridge%20Pattern.md)
-  - [Composite Pattern](05%20-%20Low-Level%20Design/TypeScript%20Design%20Patterns/Structural%20Design%20Patterns/Composite%20Pattern.md)
-  - [Decorator Pattern](05%20-%20Low-Level%20Design/TypeScript%20Design%20Patterns/Structural%20Design%20Patterns/Decorator%20Pattern.md)
-  - [Facade Pattern](05%20-%20Low-Level%20Design/TypeScript%20Design%20Patterns/Structural%20Design%20Patterns/Facade%20Pattern.md)
-  - [Flyweight Pattern](05%20-%20Low-Level%20Design/TypeScript%20Design%20Patterns/Structural%20Design%20Patterns/Flyweight%20Pattern.md)
-  - [Proxy Pattern](05%20-%20Low-Level%20Design/TypeScript%20Design%20Patterns/Structural%20Design%20Patterns/Proxy%20Pattern.md)
+<details>
+  <summary>Creational Design Patterns</summary>
+
+
+</details>
+
+
+<details>
+  <summary>Structural Design Patterns</summary>
+
+  - [Proxy Pattern (Secure Bank Account)](./05%20-%20Low%20Level%20Design/03%20-%20TypeScript%20Design%20Pattern/Structural%20Design%20Patterns/Proxy/Secure%20Bank%20Account/README.md)
+</details>
+
+
+
+
+
 
  
