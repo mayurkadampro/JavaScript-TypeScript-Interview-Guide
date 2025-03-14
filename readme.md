@@ -23,21 +23,23 @@ This section delves into fundamental concepts essential for mastering JavaScript
 <details>
   <summary>JavaScript Core Concepts</summary>
 
-  - [Closures](01%20-%20JavaScript%20&%20TypeScript%20Core%20Concepts/JavaScript%20Closures.md)
-  - [Currying](01%20-%20JavaScript%20&%20TypeScript%20Core%20Concepts/JavaScript%20Currying.md)
-  - [Generators](01%20-%20JavaScript%20&%20TypeScript%20Core%20Concepts/JavaScript%20Generators.md)
-  - [Hoisting](01%20-%20JavaScript%20&%20TypeScript%20Core%20Concepts/JavaScript%20Hoisting.md)
-  - [Iterators & Iterables](01%20-%20JavaScript%20&%20TypeScript%20Core%20Concepts/JavaScript%20Iterators%20&%20Iterables.md)
-  - [NaN](01%20-%20JavaScript%20&%20TypeScript%20Core%20Concepts/JavaScript%20NaN.md)
-  - [Rest vs Spread Operator](01%20-%20JavaScript%20&%20TypeScript%20Core%20Concepts/JavaScript%20Rest%20vs%20Spread%20Operator.md)
-  - [Scope](01%20-%20JavaScript%20&%20TypeScript%20Core%20Concepts/JavaScript%20Scope.md)
-  - [Undefined vs Null](01%20-%20JavaScript%20&%20TypeScript%20Core%20Concepts/JavaScript%20Undefined%20vs%20Null.md)
-  - [Automatic Semicolon Insertion](01%20-%20JavaScript%20&%20TypeScript%20Core%20Concepts/JavaScript%20Automatic%20Semicolon%20Insertion.md)
+  - [Arrow](01%20-%20JavaScript%20&%20TypeScript%20Core%20Concepts/JavaScript/arrow.md)
+  - [Closures](01%20-%20JavaScript%20&%20TypeScript%20Core%20Concepts/JavaScript/closures.md)
+  - [Currying](01%20-%20JavaScript%20&%20TypeScript%20Core%20Concepts/JavaScript/currying.md)
+  - [Generators](01%20-%20JavaScript%20&%20TypeScript%20Core%20Concepts/JavaScript/generator.md)
+  - [Hoisting](01%20-%20JavaScript%20&%20TypeScript%20Core%20Concepts/JavaScript/hoisting.md)
+  - [Iterators & Iterables](01%20-%20JavaScript%20&%20TypeScript%20Core%20Concepts/JavaScript/Iterators-and-Iterables.md)
+  - [NaN](01%20-%20JavaScript%20&%20TypeScript%20Core%20Concepts/JavaScript/NaN.md)
+  - [Rest vs Spread Operator](01%20-%20JavaScript%20&%20TypeScript%20Core%20Concepts/JavaScript/rest-vs-spread.md)
+  - [Scope of variables](01%20-%20JavaScript%20&%20TypeScript%20Core%20Concepts/JavaScript/scope-of-variables.md)
+  - [Scope of this](01%20-%20JavaScript%20&%20TypeScript%20Core%20Concepts/JavaScript/scope-of-this.md)
+  - [Undefined vs Null](01%20-%20JavaScript%20&%20TypeScript%20Core%20Concepts/JavaScript/undefined-vs-null.md)
+  - [Automatic Semicolon Insertion](01%20-%20JavaScript%20&%20TypeScript%20Core%20Concepts/JavaScript/asi.md)
 </details>
 <details>
   <summary>TypeScript Core Concepts</summary>
 
-  - [TypeScript Types](01%20-%20JavaScript%20&%20TypeScript%20Core%20Concepts/TypeScript%20Types.md)
+  - [TypeScript Types](01%20-%20JavaScript%20&%20TypeScript%20Core%20Concepts/TypeScript/types.md)
 </details>
 
 <br>
@@ -48,10 +50,47 @@ This section delves into fundamental concepts essential for mastering JavaScript
 
 Enhance your problem-solving skills with these pattern-based challenges.
 
-- [Basic Star Patterns](02%20-%20Beginner%20Pattern%20Problems/Basic%20Star%20Patterns.md)
-- [Number Patterns](02%20-%20Beginner%20Pattern%20Problems/Number%20Patterns.md)
-- [Alphanumeric Patterns](02%20-%20Beginner%20Pattern%20Problems/Alphanumeric%20Patterns.md)
-- [Advanced Pattern Questions](02%20-%20Beginner%20Pattern%20Problems/Advanced%20Pattern%20Questions.md)
+<details>
+  <summary>Star Patterns</summary>
+
+  - [Rectangle Star Pattern](./02%20-%20Beginner%20Pattern-Problems/Pattern-1%20Reactangle-Star-Pattern.js)
+  - [Half Diamond Star Pattern](./02%20-%20Beginner%20Pattern-Problems/Pattern-10%20Half-Diamond-Star-Pattern.js)
+  - [Diamond Star Pattern](./02%20-%20Beginner%20Pattern-Problems/Pattern-9%20Diamond-Star-Pattern.js)
+  - [Star Pyramid](./02%20-%20Beginner%20Pattern-Problems/Pattern-7%20Star-Pyramid.js)
+  - [Inverted Star Pyramid](./02%20-%20Beginner%20Pattern-Problems/Pattern-8%20Inverted-Star-Pyramid.js)
+</details>
+
+<details>
+  <summary>Number Patterns</summary>
+
+  - [Binary Number Triangle Pattern](./02%20-%20Beginner%20Pattern-Problems/Pattern-11%20Binary-Number-Triangle-Pattern.js)
+  - [Number Crown Pattern](./02%20-%20Beginner%20Pattern-Problems/Pattern-12%20Number-Crown-Pattern.js)
+  - [Increasing Number Triangle Pattern](./02%20-%20Beginner%20Pattern-Problems/Pattern-13%20Increasing-Number-Triangle-Pattern.js)
+  - [Right-Angled Number Pyramid 01](./02%20-%20Beginner%20Pattern-Problems/Pattern-3%20Right-Angled-Number-Pyramid-01.js)
+  - [Right-Angled Number Pyramid 02](./02%20-%20Beginner%20Pattern-Problems/Pattern-4%20Right-Angled-Number-Pyramid-02.js)
+  - [Inverted Numbered Right Pyramid](./02%20-%20Beginner%20Pattern-Problems/Pattern-6%20Inverted-Numbered-Right-Pyramid.js)
+  - [The Number Pattern](./02%20-%20Beginner%20Pattern-Problems/Pattern-22%20The-Number-Pattern.js)
+</details>
+
+<details>
+  <summary>Alphabet Patterns</summary>
+
+  - [Increasing Letter Triangle Pattern](./02%20-%20Beginner%20Pattern-Problems/Pattern-14%20Increasing-Letter-Triangle-Pattern.js)
+  - [Reverse Letter Triangle Pattern](./02%20-%20Beginner%20Pattern-Problems/Pattern-15%20Reverse-Letter-Triangle-Pattern.js)
+  - [Alpha Ramp Pattern](./02%20-%20Beginner%20Pattern-Problems/Pattern-16%20Alpha-Ramp-Pattern.js)
+  - [Alpha Hill Pattern](./02%20-%20Beginner%20Pattern-Problems/Pattern-17%20Alpha-Hill-Pattern.js)
+  - [Alpha Triangle Pattern](./02%20-%20Beginner%20Pattern-Problems/Pattern-18%20Alpha-Triangle-Pattern.js)
+</details>
+
+<details>
+  <summary>Miscellaneous Patterns</summary>
+
+  - [Symmetric Void Pattern](./02%20-%20Beginner%20Pattern-Problems/Pattern-19%20Symmetric-Void-Pattern.js)
+  - [Symmetric Butterfly Pattern](./02%20-%20Beginner%20Pattern-Problems/Pattern-20%20Symmetric-Butterfly-Pattern.js)
+  - [Hollow Rectangle Pattern](./02%20-%20Beginner%20Pattern-Problems/Pattern-21%20Hollow-Rectangle-Pattern.js)
+  - [Right-Angled Triangle Pattern](./02%20-%20Beginner%20Pattern-Problems/Pattern-2%20Right-Angled-Triangle-Pattern.js)
+  - [Inverted Right Pyramid](./02%20-%20Beginner%20Pattern-Problems/Pattern-5%20Inverted-Right-Pyramid.js)
+</details>
 
 <br>
 
