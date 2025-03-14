@@ -100,15 +100,92 @@ Enhance your problem-solving skills with these pattern-based challenges.
 
 Prepare for machine coding rounds with these practical problems and polyfill implementations.
 
-- [Polyfills for JavaScript](03%20-%20Machine%20Round%20&%20Polyfills/Polyfills%20for%20JavaScript.md)
-- [Custom Implementation of Map, Filter, and Reduce](03%20-%20Machine%20Round%20&%20Polyfills/Custom%20Implementation%20of%20Map%2C%20Filter%2C%20and%20Reduce.md)
-- [Debounce and Throttle](03%20-%20Machine%20Round%20&%20Polyfills/Debounce%20and%20Throttle.md)
-- [Deep Copy vs Shallow Copy](03%20-%20Machine%20Round%20&%20Polyfills/Deep%20Copy%20vs%20Shallow%20Copy.md)
-- [Event Delegation](03%20-%20Machine%20Round%20&%20Polyfills/Event%20Delegation.md)
-- [Memoization Techniques](03%20-%20Machine%20Round%20&%20Polyfills/Memoization%20Techniques.md)
-- [Promise.all & Async/Await](03%20-%20Machine%20Round%20&%20Polyfills/Promise.all%20&%20Async%20Await.md)
+<details>
+  <summary>Function Binding and Invocation</summary>
+
+  - [apply.js](./03%20-%20Machine%20Round%20&%20polyfills/apply.js)
+  - [bind.js](./03%20-%20Machine%20Round%20&%20polyfills/bind.js)
+  - [call.js](./03%20-%20Machine%20Round%20&%20polyfills/call.js)
+  - [callApplyBindTogether.js](./03%20-%20Machine%20Round%20&%20polyfills/callApplyBindTogether.js)
+</details>
+
+<details>
+  <summary>Function Utilities</summary>
+
+  - [InfiniteCurry.js](./03%20-%20Machine%20Round%20&%20polyfills/InfiniteCurry.js)
+  - [MemorizeFunction.js](./03%20-%20Machine%20Round%20&%20polyfills/MemorizeFunction.js)
+  - [curryPlaceholder.js](./03%20-%20Machine%20Round%20&%20polyfills/curryPlaceholder.js)
+  - [currying.js](./03%20-%20Machine%20Round%20&%20polyfills/currying.js)
+  - [oncePolyfiles.js](./03%20-%20Machine%20Round%20&%20polyfills/oncePolyfiles.js)
+</details>
+
+
+
+<details>
+  <summary>Functional Programming</summary>
+
+  - [debounce.js](./03%20-%20Machine%20Round%20&%20polyfills/debounce.js)
+  - [throttle.js](./03%20-%20Machine%20Round%20&%20polyfills/throttle.js)
+</details>
+
+
+
+<details>
+  <summary>Polyfills</summary>
+
+  - [PromisePolyfill.js](./03%20-%20Machine%20Round%20&%20polyfills/PromisePolyfill.js)
+  - [filterPolyfils.js](./03%20-%20Machine%20Round%20&%20polyfills/filterPolyfils.js)
+  - [mapPolyfils.js](./03%20-%20Machine%20Round%20&%20polyfills/mapPolyfils.js)
+  - [reducePolyfils.js](./03%20-%20Machine%20Round%20&%20polyfills/reducePolyfils.js)
+  - [setIntervalPolyfill.js](./03%20-%20Machine%20Round%20&%20polyfills/setIntervalPolyfill.js)
+</details>
+
+<details>
+  <summary>Object and Prototype Manipulation</summary>
+
+  - [Mixin.js](./03%20-%20Machine%20Round%20&%20polyfills/Mixin.js)
+  - [deepFreeze.js](./03%20-%20Machine%20Round%20&%20polyfills/deepFreeze.js)
+  - [deepSeal.js](./03%20-%20Machine%20Round%20&%20polyfills/deepSeal.js)
+  - [proxy.js](./03%20-%20Machine%20Round%20&%20polyfills/proxy.js)
+</details>
+
+
+<details>
+  <summary>Data Conversion and Manipulation</summary>
+
+  - [CSVToJSON.js](./03%20-%20Machine%20Round%20&%20polyfills/CSVToJSON.js)
+  - [Number To Binary.js](./03%20-%20Machine%20Round%20&%20polyfills/Number%20To%20Binary.js)
+  - [flattenAnArray.js](./03%20-%20Machine%20Round%20&%20polyfills/flattenAnArray.js)
+  - [reverseNumber.js](./03%20-%20Machine%20Round%20&%20polyfills/reverseNumber.js)
+  - [reverseStr.js](./03%20-%20Machine%20Round%20&%20polyfills/reverseStr.js)
+</details>
+
+
+<details>
+  <summary>Asynchronous Control</summary>
+
+  - [circuitBreaker.js](./03%20-%20Machine%20Round%20&%20polyfills/circuitBreaker.js)
+  - [fetchWithTimeout.js](./03%20-%20Machine%20Round%20&%20polyfills/fetchWithTimeout.js)
+  - [limitConcurrency.js](./03%20-%20Machine%20Round%20&%20polyfills/limitConcurrency.js)
+  - [rateLimiter.js](./03%20-%20Machine%20Round%20&%20polyfills/rateLimiter.js)
+</details>
+
+
+<details>
+  <summary>Utility Functions</summary>
+
+  - [cacheApiCall.js](./03%20-%20Machine%20Round%20&%20polyfills/cacheApiCall.js)
+  - [customCookie.js](./03%20-%20Machine%20Round%20&%20polyfills/customCookie.js)
+  - [deepFilter.js](./03%20-%20Machine%20Round%20&%20polyfills/deepFilter.js)
+  - [groubBy.js](./03%20-%20Machine%20Round%20&%20polyfills/groubBy.js)
+  - [removeCircularDependancy.js](./03%20-%20Machine%20Round%20&%20polyfills/removeCircularDependancy.js)
+</details>
 
 <br>
+
+## <span style="color: red;">Below Sections Are In Progress</span>
+
+Once completed, the README file will be updated. Currently, you may encounter some inaccuracies.
 
 ## 4. Data Structures
 
