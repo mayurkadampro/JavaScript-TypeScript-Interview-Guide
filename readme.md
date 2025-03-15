@@ -217,6 +217,7 @@ Understand system design principles and implement design patterns.
   <summary>Behavioral Design Patterns</summary>
 
   - [Chain of Responsibility (Logging System)](./05%20-%20Low%20Level%20Design/03%20-%20TypeScript%20Design%20Pattern/Behavioral%20Design%20Patterns/Chain%20of%20Responsibility/%20Logging%20System/README.md)
+  - [Null Object Pattern (Vehicle System)](./05%20-%20Low%20Level%20Design/03%20-%20TypeScript%20Design%20Pattern/Behavioral%20Design%20Patterns/Null%20Object%20Pattern/Vehicle%20System/README.md)
 </details>
 
 <details>
