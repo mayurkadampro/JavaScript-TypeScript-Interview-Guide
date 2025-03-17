@@ -222,8 +222,8 @@ Understand system design principles and implement design patterns.
 
 <details>
   <summary>Creational Design Patterns</summary>
-
-
+  
+  - [Factory Pattern (Vehicle System)](./05%20-%20Low%20Level%20Design/03%20-%20TypeScript%20Design%20Pattern/Creational%20Design%20Patterns/Factory%20Pattern/Vehicle%20System/README.md)
 </details>
 
 
