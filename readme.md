@@ -68,22 +68,84 @@ Prepare for machine coding rounds with these practical problems and polyfill imp
 
 ## 🚀 JavaScript Concepts and Utilities
 
-| **Function Binding & Invocation** | **Function Utilities** | **Functional Programming** | **Polyfills** |
-| --------------------------------- | ---------------------- | ------------------------- | ------------- |
-| [apply.js](./03%20-%20Machine%20Round%20&%20polyfills/apply.js) | [InfiniteCurry.js](./03%20-%20Machine%20Round%20&%20polyfills/InfiniteCurry.js) | [debounce.js](./03%20-%20Machine%20Round%20&%20polyfills/debounce.js) | [PromisePolyfill.js](./03%20-%20Machine%20Round%20&%20polyfills/PromisePolyfill.js) |
-| [bind.js](./03%20-%20Machine%20Round%20&%20polyfills/bind.js) | [MemorizeFunction.js](./03%20-%20Machine%20Round%20&%20polyfills/MemorizeFunction.js) | [throttle.js](./03%20-%20Machine%20Round%20&%20polyfills/throttle.js) | [filterPolyfils.js](./03%20-%20Machine%20Round%20&%20polyfills/filterPolyfils.js) |
-| [call.js](./03%20-%20Machine%20Round%20&%20polyfills/call.js) | [curryPlaceholder.js](./03%20-%20Machine%20Round%20&%20polyfills/curryPlaceholder.js) | | [mapPolyfils.js](./03%20-%20Machine%20Round%20&%20polyfills/mapPolyfils.js) |
-| [callApplyBindTogether.js](./03%20-%20Machine%20Round%20&%20polyfills/callApplyBindTogether.js) | [currying.js](./03%20-%20Machine%20Round%20&%20polyfills/currying.js) | | [reducePolyfils.js](./03%20-%20Machine%20Round%20&%20polyfills/reducePolyfils.js) |
-| | [oncePolyfiles.js](./03%20-%20Machine%20Round%20&%20polyfills/oncePolyfiles.js) | | [setIntervalPolyfill.js](./03%20-%20Machine%20Round%20&%20polyfills/setIntervalPolyfill.js) |
+<details open>
+  <summary>Function Binding and Invocation</summary>
 
-| **Object & Prototype Manipulation** | **Data Conversion & Manipulation** | **Asynchronous Control** | **Utility Functions** |
-| ---------------------------------- | ---------------------------------- | ---------------------- | ---------------------- |
-| [Mixin.js](./03%20-%20Machine%20Round%20&%20polyfills/Mixin.js) | [CSVToJSON.js](./03%20-%20Machine%20Round%20&%20polyfills/CSVToJSON.js) | [circuitBreaker.js](./03%20-%20Machine%20Round%20&%20polyfills/circuitBreaker.js) | [cacheApiCall.js](./03%20-%20Machine%20Round%20&%20polyfills/cacheApiCall.js) |
-| [deepFreeze.js](./03%20-%20Machine%20Round%20&%20polyfills/deepFreeze.js) | [Number To Binary.js](./03%20-%20Machine%20Round%20&%20polyfills/Number%20To%20Binary.js) | [fetchWithTimeout.js](./03%20-%20Machine%20Round%20&%20polyfills/fetchWithTimeout.js) | [customCookie.js](./03%20-%20Machine%20Round%20&%20polyfills/customCookie.js) |
-| [deepSeal.js](./03%20-%20Machine%20Round%20&%20polyfills/deepSeal.js) | [flattenAnArray.js](./03%20-%20Machine%20Round%20&%20polyfills/flattenAnArray.js) | [limitConcurrency.js](./03%20-%20Machine%20Round%20&%20polyfills/limitConcurrency.js) | [deepFilter.js](./03%20-%20Machine%20Round%20&%20polyfills/deepFilter.js) |
-| [proxy.js](./03%20-%20Machine%20Round%20&%20polyfills/proxy.js) | [reverseNumber.js](./03%20-%20Machine%20Round%20&%20polyfills/reverseNumber.js) | [rateLimiter.js](./03%20-%20Machine%20Round%20&%20polyfills/rateLimiter.js) | [groubBy.js](./03%20-%20Machine%20Round%20&%20polyfills/groubBy.js) |
-| | [reverseStr.js](./03%20-%20Machine%20Round%20&%20polyfills/reverseStr.js) | | [removeCircularDependancy.js](./03%20-%20Machine%20Round%20&%20polyfills/removeCircularDependancy.js) |
+  - [apply.js](./03%20-%20Machine%20Round%20&%20polyfills/apply.js)
+  - [bind.js](./03%20-%20Machine%20Round%20&%20polyfills/bind.js)
+  - [call.js](./03%20-%20Machine%20Round%20&%20polyfills/call.js)
+  - [callApplyBindTogether.js](./03%20-%20Machine%20Round%20&%20polyfills/callApplyBindTogether.js)
+</details>
 
+<details open>
+  <summary>Function Utilities</summary>
+
+  - [InfiniteCurry.js](./03%20-%20Machine%20Round%20&%20polyfills/InfiniteCurry.js)
+  - [MemorizeFunction.js](./03%20-%20Machine%20Round%20&%20polyfills/MemorizeFunction.js)
+  - [curryPlaceholder.js](./03%20-%20Machine%20Round%20&%20polyfills/curryPlaceholder.js)
+  - [currying.js](./03%20-%20Machine%20Round%20&%20polyfills/currying.js)
+  - [oncePolyfiles.js](./03%20-%20Machine%20Round%20&%20polyfills/oncePolyfiles.js)
+</details>
+
+
+<details open>
+  <summary>Functional Programming</summary>
+
+  - [debounce.js](./03%20-%20Machine%20Round%20&%20polyfills/debounce.js)
+  - [throttle.js](./03%20-%20Machine%20Round%20&%20polyfills/throttle.js)
+</details>
+
+
+<details open>
+  <summary>Polyfills</summary>
+
+  - [PromisePolyfill.js](./03%20-%20Machine%20Round%20&%20polyfills/PromisePolyfill.js)
+  - [filterPolyfils.js](./03%20-%20Machine%20Round%20&%20polyfills/filterPolyfils.js)
+  - [mapPolyfils.js](./03%20-%20Machine%20Round%20&%20polyfills/mapPolyfils.js)
+  - [reducePolyfils.js](./03%20-%20Machine%20Round%20&%20polyfills/reducePolyfils.js)
+  - [setIntervalPolyfill.js](./03%20-%20Machine%20Round%20&%20polyfills/setIntervalPolyfill.js)
+</details>
+
+<details open>
+  <summary>Object and Prototype Manipulation</summary>
+
+  - [Mixin.js](./03%20-%20Machine%20Round%20&%20polyfills/Mixin.js)
+  - [deepFreeze.js](./03%20-%20Machine%20Round%20&%20polyfills/deepFreeze.js)
+  - [deepSeal.js](./03%20-%20Machine%20Round%20&%20polyfills/deepSeal.js)
+  - [proxy.js](./03%20-%20Machine%20Round%20&%20polyfills/proxy.js)
+</details>
+
+
+<details open>
+  <summary>Data Conversion and Manipulation</summary>
+
+  - [CSVToJSON.js](./03%20-%20Machine%20Round%20&%20polyfills/CSVToJSON.js)
+  - [Number To Binary.js](./03%20-%20Machine%20Round%20&%20polyfills/Number%20To%20Binary.js)
+  - [flattenAnArray.js](./03%20-%20Machine%20Round%20&%20polyfills/flattenAnArray.js)
+  - [reverseNumber.js](./03%20-%20Machine%20Round%20&%20polyfills/reverseNumber.js)
+  - [reverseStr.js](./03%20-%20Machine%20Round%20&%20polyfills/reverseStr.js)
+</details>
+
+
+<details open>
+  <summary>Asynchronous Control</summary>
+
+  - [circuitBreaker.js](./03%20-%20Machine%20Round%20&%20polyfills/circuitBreaker.js)
+  - [fetchWithTimeout.js](./03%20-%20Machine%20Round%20&%20polyfills/fetchWithTimeout.js)
+  - [limitConcurrency.js](./03%20-%20Machine%20Round%20&%20polyfills/limitConcurrency.js)
+  - [rateLimiter.js](./03%20-%20Machine%20Round%20&%20polyfills/rateLimiter.js)
+</details>
+
+
+<details open>
+  <summary>Utility Functions</summary>
+
+  - [cacheApiCall.js](./03%20-%20Machine%20Round%20&%20polyfills/cacheApiCall.js)
+  - [customCookie.js](./03%20-%20Machine%20Round%20&%20polyfills/customCookie.js)
+  - [deepFilter.js](./03%20-%20Machine%20Round%20&%20polyfills/deepFilter.js)
+  - [groubBy.js](./03%20-%20Machine%20Round%20&%20polyfills/groubBy.js)
+  - [removeCircularDependancy.js](./03%20-%20Machine%20Round%20&%20polyfills/removeCircularDependancy.js)
+</details>
 <br>
 
 ## 4. Data Structures
