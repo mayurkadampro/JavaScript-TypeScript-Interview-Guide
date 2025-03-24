@@ -20,7 +20,7 @@ Welcome to the **JavaScript & TypeScript Interview Guide**! This repository is c
 
 This section delves into fundamental concepts essential for mastering JavaScript and TypeScript.
 
-<details>
+<details open>
   <summary>JavaScript Core Concepts</summary>
 
   - [Arrow](01%20-%20JavaScript%20&%20TypeScript%20Core%20Concepts/JavaScript/arrow.md)
@@ -36,7 +36,7 @@ This section delves into fundamental concepts essential for mastering JavaScript
   - [Undefined vs Null](01%20-%20JavaScript%20&%20TypeScript%20Core%20Concepts/JavaScript/undefined-vs-null.md)
   - [Automatic Semicolon Insertion](01%20-%20JavaScript%20&%20TypeScript%20Core%20Concepts/JavaScript/asi.md)
 </details>
-<details>
+<details open>
   <summary>TypeScript Core Concepts</summary>
 
   - [TypeScript Types](01%20-%20JavaScript%20&%20TypeScript%20Core%20Concepts/TypeScript/types.md)
@@ -50,7 +50,7 @@ This section delves into fundamental concepts essential for mastering JavaScript
 
 Enhance your problem-solving skills with these pattern-based challenges.
 
-<details>
+<details open>
   <summary>Star Patterns</summary>
 
   - [Rectangle Star Pattern](./02%20-%20Beginner%20Pattern-Problems/Pattern-1%20Reactangle-Star-Pattern.js)
@@ -60,7 +60,7 @@ Enhance your problem-solving skills with these pattern-based challenges.
   - [Inverted Star Pyramid](./02%20-%20Beginner%20Pattern-Problems/Pattern-8%20Inverted-Star-Pyramid.js)
 </details>
 
-<details>
+<details open>
   <summary>Number Patterns</summary>
 
   - [Binary Number Triangle Pattern](./02%20-%20Beginner%20Pattern-Problems/Pattern-11%20Binary-Number-Triangle-Pattern.js)
@@ -72,7 +72,7 @@ Enhance your problem-solving skills with these pattern-based challenges.
   - [The Number Pattern](./02%20-%20Beginner%20Pattern-Problems/Pattern-22%20The-Number-Pattern.js)
 </details>
 
-<details>
+<details open>
   <summary>Alphabet Patterns</summary>
 
   - [Increasing Letter Triangle Pattern](./02%20-%20Beginner%20Pattern-Problems/Pattern-14%20Increasing-Letter-Triangle-Pattern.js)
@@ -82,7 +82,7 @@ Enhance your problem-solving skills with these pattern-based challenges.
   - [Alpha Triangle Pattern](./02%20-%20Beginner%20Pattern-Problems/Pattern-18%20Alpha-Triangle-Pattern.js)
 </details>
 
-<details>
+<details open>
   <summary>Miscellaneous Patterns</summary>
 
   - [Symmetric Void Pattern](./02%20-%20Beginner%20Pattern-Problems/Pattern-19%20Symmetric-Void-Pattern.js)
@@ -100,7 +100,7 @@ Enhance your problem-solving skills with these pattern-based challenges.
 
 Prepare for machine coding rounds with these practical problems and polyfill implementations.
 
-<details>
+<details open>
   <summary>Function Binding and Invocation</summary>
 
   - [apply.js](./03%20-%20Machine%20Round%20&%20polyfills/apply.js)
@@ -109,7 +109,7 @@ Prepare for machine coding rounds with these practical problems and polyfill imp
   - [callApplyBindTogether.js](./03%20-%20Machine%20Round%20&%20polyfills/callApplyBindTogether.js)
 </details>
 
-<details>
+<details open>
   <summary>Function Utilities</summary>
 
   - [InfiniteCurry.js](./03%20-%20Machine%20Round%20&%20polyfills/InfiniteCurry.js)
@@ -121,7 +121,7 @@ Prepare for machine coding rounds with these practical problems and polyfill imp
 
 
 
-<details>
+<details open>
   <summary>Functional Programming</summary>
 
   - [debounce.js](./03%20-%20Machine%20Round%20&%20polyfills/debounce.js)
@@ -130,7 +130,7 @@ Prepare for machine coding rounds with these practical problems and polyfill imp
 
 
 
-<details>
+<details open>
   <summary>Polyfills</summary>
 
   - [PromisePolyfill.js](./03%20-%20Machine%20Round%20&%20polyfills/PromisePolyfill.js)
@@ -140,7 +140,7 @@ Prepare for machine coding rounds with these practical problems and polyfill imp
   - [setIntervalPolyfill.js](./03%20-%20Machine%20Round%20&%20polyfills/setIntervalPolyfill.js)
 </details>
 
-<details>
+<details open>
   <summary>Object and Prototype Manipulation</summary>
 
   - [Mixin.js](./03%20-%20Machine%20Round%20&%20polyfills/Mixin.js)
@@ -150,7 +150,7 @@ Prepare for machine coding rounds with these practical problems and polyfill imp
 </details>
 
 
-<details>
+<details open>
   <summary>Data Conversion and Manipulation</summary>
 
   - [CSVToJSON.js](./03%20-%20Machine%20Round%20&%20polyfills/CSVToJSON.js)
@@ -161,7 +161,7 @@ Prepare for machine coding rounds with these practical problems and polyfill imp
 </details>
 
 
-<details>
+<details open>
   <summary>Asynchronous Control</summary>
 
   - [circuitBreaker.js](./03%20-%20Machine%20Round%20&%20polyfills/circuitBreaker.js)
@@ -171,7 +171,7 @@ Prepare for machine coding rounds with these practical problems and polyfill imp
 </details>
 
 
-<details>
+<details open>
   <summary>Utility Functions</summary>
 
   - [cacheApiCall.js](./03%20-%20Machine%20Round%20&%20polyfills/cacheApiCall.js)
@@ -213,7 +213,7 @@ Understand system design principles and implement design patterns.
 
 ### TypeScript Design Patterns
 
-<details>
+<details open>
   <summary>Behavioral Design Patterns</summary>
 
   - [Chain of Responsibility (Logging System)](./05%20-%20Low%20Level%20Design/03%20-%20TypeScript%20Design%20Pattern/Behavioral%20Design%20Patterns/Chain%20of%20Responsibility/%20Logging%20System/README.md)
@@ -221,7 +221,7 @@ Understand system design principles and implement design patterns.
    - [Strategy Pattern (Vehicle System)](./05%20-%20Low%20Level%20Design/03%20-%20TypeScript%20Design%20Pattern/Behavioral%20Design%20Patterns/Strategy%20Pattern/Vehicle%20System/Vehicle%20System%20With%20Strategy%20Pattern/README.md)
 </details>
 
-<details>
+<details open>
   <summary>Creational Design Patterns</summary>
   
   - [Factory Method (Vehicle System)](./05%20-%20Low%20Level%20Design/03%20-%20TypeScript%20Design%20Pattern/Creational%20Design%20Patterns/Factory%20Method/Vehicle%20System/README.md)
@@ -229,10 +229,11 @@ Understand system design principles and implement design patterns.
 </details>
 
 
-<details>
+<details open>
   <summary>Structural Design Patterns</summary>
 
   - [Proxy Pattern (Secure Bank Account)](./05%20-%20Low%20Level%20Design/03%20-%20TypeScript%20Design%20Pattern/Structural%20Design%20Patterns/Proxy/Secure%20Bank%20Account/README.md)
+  - [Decorator Pattern (Vehicle System)](./05%20-%20Low%20Level%20Design/03%20-%20TypeScript%20Design%20Pattern/Structural%20Design%20Patterns/Decorator/Vehicle%20System/README.md)
 </details>
 
 
