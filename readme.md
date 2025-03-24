@@ -213,32 +213,10 @@ Understand system design principles and implement design patterns.
 
 ### TypeScript Design Patterns
 
-<details open>
-  <summary>Behavioral Design Patterns</summary>
+## ⚙️ Design Patterns
 
-  - [Chain of Responsibility (Logging System)](./05%20-%20Low%20Level%20Design/03%20-%20TypeScript%20Design%20Pattern/Behavioral%20Design%20Patterns/Chain%20of%20Responsibility/%20Logging%20System/README.md)
-  - [Null Object Pattern (Vehicle System)](./05%20-%20Low%20Level%20Design/03%20-%20TypeScript%20Design%20Pattern/Behavioral%20Design%20Patterns/Null%20Object%20Pattern/Vehicle%20System/README.md)
-   - [Strategy Pattern (Vehicle System)](./05%20-%20Low%20Level%20Design/03%20-%20TypeScript%20Design%20Pattern/Behavioral%20Design%20Patterns/Strategy%20Pattern/Vehicle%20System/Vehicle%20System%20With%20Strategy%20Pattern/README.md)
-</details>
-
-<details open>
-  <summary>Creational Design Patterns</summary>
-  
-  - [Factory Method (Vehicle System)](./05%20-%20Low%20Level%20Design/03%20-%20TypeScript%20Design%20Pattern/Creational%20Design%20Patterns/Factory%20Method/Vehicle%20System/README.md)
-  - [Abstract Factory (Vehicle System)](./05%20-%20Low%20Level%20Design/03%20-%20TypeScript%20Design%20Pattern/Creational%20Design%20Patterns/Abstract%20Factory/Vehicle%20System/README.md)
-</details>
-
-
-<details open>
-  <summary>Structural Design Patterns</summary>
-
-  - [Proxy Pattern (Secure Bank Account)](./05%20-%20Low%20Level%20Design/03%20-%20TypeScript%20Design%20Pattern/Structural%20Design%20Patterns/Proxy/Secure%20Bank%20Account/README.md)
-  - [Decorator Pattern (Vehicle System)](./05%20-%20Low%20Level%20Design/03%20-%20TypeScript%20Design%20Pattern/Structural%20Design%20Patterns/Decorator/Vehicle%20System/README.md)
-</details>
-
-
-
-
-
-
- 
+| **Creational Patterns** | **Structural Patterns** | **Behavioral Patterns** |
+| ----------------------- | ---------------------- | ----------------------- |
+| [Factory Method (Vehicle System)](./05%20-%20Low%20Level%20Design/03%20-%20TypeScript%20Design%20Pattern/Creational%20Design%20Patterns/Factory%20Method/Vehicle%20System/README.md) | [Proxy Pattern (Secure Bank Account)](./05%20-%20Low%20Level%20Design/03%20-%20TypeScript%20Design%20Pattern/Structural%20Design%20Patterns/Proxy/Secure%20Bank%20Account/README.md) | [Null Object Pattern (Vehicle System)](./05%20-%20Low%20Level%20Design/03%20-%20TypeScript%20Design%20Pattern/Behavioral%20Design%20Patterns/Null%20Object%20Pattern/Vehicle%20System/README.md) |
+| [Abstract Factory (Vehicle System)](./05%20-%20Low%20Level%20Design/03%20-%20TypeScript%20Design%20Pattern/Creational%20Design%20Patterns/Abstract%20Factory/Vehicle%20System/README.md) | [Decorator Pattern (Vehicle System)](./05%20-%20Low%20Level%20Design/03%20-%20TypeScript%20Design%20Pattern/Structural%20Design%20Patterns/Decorator/Vehicle%20System/README.md) | [Chain of Responsibility (Logging System)](./05%20-%20Low%20Level%20Design/03%20-%20TypeScript%20Design%20Pattern/Behavioral%20Design%20Patterns/Chain%20of%20Responsibility/%20Logging%20System/README.md) |
+|                         |                        | [Strategy Pattern (Vehicle System)](./05%20-%20Low%20Level%20Design/03%20-%20TypeScript%20Design%20Pattern/Behavioral%20Design%20Patterns/Strategy%20Pattern/Vehicle%20System/Vehicle%20System%20With%20Strategy%20Pattern/README.md) |
